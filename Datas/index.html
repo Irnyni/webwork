@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Calculo de tempo</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>INFORME OS MESES</h1>
+        <input type="date" id="data1">
+        <input type="date" id="data2">
+       
+        <input type = "button" value = "Buscar" name = "btcalcular1" id = "b1"
+         onclick="calculaTempo(data1.value,data2.value)">
+
+        <div class="resultados">
+         <label for="anos">Anos</label>
+        <input type="text" id="year" disabled  maxlength="4" size="5"> <br>
+        <label for="meses" >Meses</label>       
+        <input type="text" id="mes" disabled  maxlength="2" size="3">
+        <label for="dias">dias</label>
+        <input type="text" id="day" disabled  maxlength="2" size="3">
+
+
+        </div>
+         
+         
+
+    </div>
+    
+</body>
+</html>
