@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 4, 4);
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 70px;
+    align-items: center;
+    padding: 40px;
+
+    border-radius: 15px;
+}
+
+input{
+
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;}
+
+
+
+.jogo input{
+    text-align: center center;
+    display: inline-flex;
+    width: 180px;
+    height: 180px;
+    transition: 1s;
+    font-size: 180px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.jogo input:hover{
+
+     background-color: blue;
+     color: rgb(255, 255, 255);
+     width: 182px;
+     height: 182px;
+
+}
+
+input value{
+
+    font-size: 10px;
+}
