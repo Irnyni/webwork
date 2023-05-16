@@ -26,15 +26,16 @@ input{
 
 
 .jogo input{
-    text-align: center center;
-    display: inline-flex;
+
     width: 180px;
-    height: 180px;
+    height: 195px;
     transition: 1s;
-    font-size: 180px;
+    font-size: 150px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    margin: 20px;
 
 }
 
@@ -42,8 +43,8 @@ input{
 
      background-color: blue;
      color: rgb(255, 255, 255);
-     width: 182px;
-     height: 182px;
+     width: 181px;
+     height: 195px;
 
 }
 
