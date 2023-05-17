@@ -16,7 +16,10 @@ body{
 
     border-radius: 15px;
 }
-
+container.input{
+    width: 100px;
+    height: 100px;
+}
 input{
 
     text-align: center;
@@ -48,7 +51,24 @@ input{
 
 }
 
-input value{
 
-    font-size: 10px;
+.resultados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados input{
+
+    width: 660px;
+    font-size: 118px;
+    margin: 0cm;
+    padding: 5px;
+}
+.resultados input:hover{
+
+    width: 662px;
+    font-size: 120px;
+
 }
