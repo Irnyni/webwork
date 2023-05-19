@@ -43,7 +43,7 @@ var delayInMilliseconds = 2000; //1 second
         }  
         
         if(a0.value=="X" && a1.value=="X"&&a2.value=="X"||b0.value=="X" && b1.value=="X"&&b2.value=="X"||c0.value=="X" && c1.value=="X"&&c2.value=="X"||a0.value=="X" 
-        && b1.value=="X"&&c2.value=="X"||a2.value=="X" && b1.value=="X"&&c0.value=="X"||a0.value=="X" && b0.value=="X"&&c0.value=="X"||a1.value=="X" && b1.value=="X"&&c1.value=="X"||a2.value=="X" && b2.value=="X"&&C2.value=="X"){
+        && b1.value=="X"&&c2.value=="X"||a2.value=="X" && b1.value=="X"&&c0.value=="X"||a0.value=="X" && b0.value=="X"&&c0.value=="X"||a1.value=="X" && b1.value=="X"&&c1.value=="X"||a2.value=="X"&& b2.value=="X"&&c2.value=="X"){
 
 
              var x = document.createElement("INPUT");
@@ -58,7 +58,7 @@ var delayInMilliseconds = 2000; //1 second
         
         
         if(a0.value=="O" && a1.value=="O"&&a2.value=="O"||b0.value=="O" && b1.value=="O"&&b2.value=="O"||c0.value=="O" && c1.value=="O"&&c2.value=="O"||a0.value=="O" && b1.value=="O"&&c2.value=="O"||a2.value=="O" 
-        && b1.value=="O"&&c0.value=="O"||a0.value=="O" && b0.value=="O"&&c0.value=="O"||a1.value=="O" && b1.value=="O"&&c1.value=="O"||a2.value=="O" && b2.value=="O"&&C2.value=="O") {
+        && b1.value=="O"&&c0.value=="O"||a0.value=="O" && b0.value=="O"&&c0.value=="O"||a1.value=="O" && b1.value=="O"&&c1.value=="O"||a2.value=="O" && b2.value=="O"&&c2.value=="O") {
       
             var x = document.createElement("INPUT");
             x.setAttribute("value", "O ganhou");
